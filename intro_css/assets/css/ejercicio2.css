@@ -1,0 +1,42 @@
+*{
+    background-color: green;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: black;
+}
+
+.estilo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+
+.estilo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+
+.estilo3{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+
+.estilo4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.estilo5{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+
+.estilo6{
+    font-family:;
+    font-style:;
+    color: red;
+}

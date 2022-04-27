@@ -1,0 +1,37 @@
+.recuadro{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.formulario{
+    background-color: green;
+    color: white;
+    padding: 50px;
+    border: 5px solid skyblue;
+    border-radius: 10px;
+}
+
+.espaciado{
+    padding-left: 30px;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+}
+
+input{
+    border: 3px solid red;
+}
+
+.boton{
+    border: none;
+}
+
+.seccionboton{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px dashed white;
+    width: 180 px;
+}

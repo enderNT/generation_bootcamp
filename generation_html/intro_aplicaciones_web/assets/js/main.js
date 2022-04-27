@@ -1,3 +1,1 @@
-/**
- * 
- */
+alert("Mi primer página completa");

@@ -1,0 +1,53 @@
+.padre {
+    width: 80%;
+    height: 60vh;
+    /*view height es una unidad relativa, es la que se toma apartir de lo que se observa en pantalla*/
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    /*Tiene que ser solamente en elementos padre*/
+    flex-direction: row; /*fila - es lo que viene por defecto al utilizar flex*/
+    /*flex-direction: row, column, column-reverse;
+    Se comporta de diferentes maneras*/
+    justify-content: center;
+    /*Alinea de manera horizontal*/
+    align-items: center
+    /*Alinea de manera vertical*/
+
+    /*flex-direction:column (columna)
+    justify-content: center;
+    /*Alinea de manera vertical
+    align-items: center
+    Alinea de manera horizontal*/
+
+    /*justify-content: space-between
+    justify-content: space-around*/
+
+    /*flex-wrap: wrap
+    Permite tener un flex responsivo*/
+
+}
+
+.hijo {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black
+        /*display: none
+    Nos desaparece los elementos
+    */
+}
+
+
+
+
+.div1 {
+    background-color: blue;
+}
+
+.div2 {
+    background-color: violet;
+}
+
+.div3 {
+    background-color: tomato;
+}

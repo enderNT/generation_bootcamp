@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+</head>
+<body>
+    <h1 class="titulo">Selectores 1</h1>
+    <h1 class="titulo">Selectores 2</h1>
+    <h1 class="titulo">Selectores 3</h1>
+
+    <div>
+        <h1>Titulo dentro de un div</h1>
+    </div>
+
+    <p id="parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa modi quidem velit possimus fugit ipsa rem distinctio accusamus repellendus, omnis, mollitia accusantium consequatur magnam. Quas ratione similique reiciendis vero ullam.</p>
+
+    <p id="parrafo">Hola Mundo</p>
+
+    <br>
+    <!--No es "buena práctica":-->
+    <button onclick="alert('Hola desde un manejador de eventos')">Manejador de eventos</button>
+
+    <!--
+        Es mejor de esta manera:
+    <button onclick="saludar()">Manejador de eventos</button>
+    -->
+
+    <!--<input onmouseover="alert('Hola desde un manejador de eventos con mouse over')" type="button" value="Manejador de eventos con mouse over">
+
+    <input onmouseover="saludar()" type="button" value="Manejador de eventos con mouse over 2">
+    -->
+
+    <input id="btnSemantico" type="button" value="Manejador de eventos semántico">
+
+    <!--<input id="btnSemAnonimFunction" type="button" value="Manejador de eventos semántico con función anónima">
+
+    <input id="btnEventoMultiple" type="button" value="Evento múltiple">
+    -->
+
+    <!--
+<script src="assets/JS/app.js"></script>
+<script src="assets/JS/dom.js"></script>-->
+
+    <script src="assets/JS/manejadoresEventos.js"></script>
+
+</body>
+</html>

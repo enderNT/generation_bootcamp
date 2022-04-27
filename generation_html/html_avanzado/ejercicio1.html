@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/CSS/ejercicio1.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/ejercicio1.css">
+
+    <title>Ejercicio 1</title>
 </head>
 <body>
-    <h1>Ejercicio de tablas</h1>
+
+        <h1>Ejercicio de tablas</h1>
+
     <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio <span style="color:red">individual</style></th>
+                <th>Cantidad</th>
+                <th>Precio total</th>
+            </tr>
+        </thead>
+
         <tbody>
             <tr>
-                <td class="strong">Producto</td>
-                <td class="strong">Precio 
-                    <strong> 
-                        individual
-                    </strong>
-                </td>
-                <td class="strong">Cantidad</td>
-                <td class="strong">Precio total</td>
-            </tr>
-            <tr>
                 <td>Hola mundo</td>
-                <td class="italic">Gratis</td>
+                <td style="font-style:italic">Gratis</td>
                 <td>5</td>
                 <td>Gratis</td>
             </tr>
             <tr>
                 <td>Perrito Feliz</td>
-                <td class="bg-orange">$19.99</td>
-                <td class="bg-orange">2</td>
+                <td style="background-color: orange">$19.99</td>
+                <td style="background-color:orange">2</td>
                 <td>$39.98</td>
             </tr>
             <tr>
-                <td>Perrito <mark class="strong"> Feliz </mark> muy feliz</td>
-                <td>$29.99</td>
+                <td>Perrito <em>Feliz</em> muy feliz</td>
+                <td>29.99</td>
                 <td>3</td>
-                <td>
-                    $89.9
-                    <span>
-                        7
-                    </span>
-                </td>
+                <td>89.97</td>
             </tr>
             <tr>
-                <td class="bg-dark"></td>
-                <td class="bg-yellow">Total: $49.99</td>
-                <td class="bg-yellow">10</td>
-                <td class="bg-yellow">$129.95</td>
+                <td style="background-color:black">Total $49.99</td>
+                <td style="background-color:green">Total $49.99</td>
+                <td style="background-color:green">10</td>
+                <td style="background-color:green">129.95</td>
             </tr>
         </tbody>
+
     </table>
+
 </body>
 </html>

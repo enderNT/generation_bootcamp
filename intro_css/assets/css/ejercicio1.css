@@ -1,0 +1,15 @@
+.fondoa{
+    background-color: rgb(173, 89, 173);
+    width: 400px;
+    height: 25px;
+
+}
+
+.fondob{
+    background-color: orange;
+    width: 400px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+
+}

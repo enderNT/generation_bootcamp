@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+
+}
+
+/* Nos sirve para traer enfrente o detrás los elementos, entre mayor, más al frente.
+z-index: n;
+*/
+
+.cuadro {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* Permite ordenar en bloque a los elementos:
+    display: inline-block;*/
+}
+
+/*
+Propiedades de movimiento:
+Se utilizan de la siguiente manera:
+left: 100px; Se interpreta como 100px hacia la izquierda (moviendo hacia la derecha el elemento)
+bottom
+top
+left
+right
+Se puede utilizar valores negativos y es equivalente a la otra propiedad
+bottom: -xpx = top: xpx
+*/
+
+
+.div1 {
+    background-color: aqua;
+    /*Es la posición por defecto de manera en cascada y sin considerar el eje horizontal*/
+    position: static;
+}
+
+/*Cuando hay un elemento que abarca a otro, se le denomina como elemento padre
+Las posiciones sirven respecto a ello también, si es relativo, es la misma posición que corresponde en cascada.
+Si es absoluto, se toma el elemento padre como referencia.*/
+
+.padre {
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+
+.div2 {
+    background-color: blueviolet;
+    /*Es la posición que se mueve de manera relativa a su "posición" que supuestamente debería estar por defecto*/
+    position: fixed;
+    right: 10px;
+}
+
+.div3 {
+    background-color: tomato;
+    /*Es la posición que toma al elemento padre como referencia*/
+    position: absolute;
+    left: 100px;
+}
+
+/*position: fixed;
+Es para un elemento fijo cuando se hace scroll
+Como un ad*/
+
+/*position: sticky
+Es otro tipo de posicionamiento que se adhiere al elemento padre mientras se hace scroll*/
