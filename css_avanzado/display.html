@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="ens">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css_avanzado/assets/css/display.css">
-    <title>Display</title>
+    <link rel="stylesheet" href="assets/css/display.css">
+    <title>Document</title>
 </head>
-
 <body>
     <h1>Display</h1>
-    <div class="padre">
-        <div class="hijo div1">Div 1</div>
-        <div class="hijo div2">Div 2</div>
-        <div class="hijo div3">Div 3</div>
-    </div>
 
     <button>Desaparecer</button>
 
+    <div class="padre">
+        <div class="hijo div1" >Div1</div>
+        <div class="hijo div2" >Div2</div>
+        <div class="hijo div3" >Div3</div>
+    </div>
+    
     <script>
-        const boton = document.querySelector('button');
+        const boton = document.querySelector("button");
+        boton.addEventListener
+        ("click", ()=>{
 
-        boton.addEventListener('click', () => {
-            const div1 = document.querySelector('.div1');
-            console.log(div1);
-            if (div1.style.display === "none") {
+            const div1 = document.querySelector(".div1");
+            /* console.log(div1); */
+
+            if(div1.style.display === "none"){
                 div1.style.display = "block"
-            }
-            else {
+            }else{
                 div1.style.display = "none"
             }
-        })
-    </script>
-</body>
+            
 
+        });
+    </script>
+    
+</body>
 </html>

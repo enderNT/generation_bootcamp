@@ -1,15 +1,44 @@
-.fondoa{
-    background-color: rgb(173, 89, 173);
-    width: 400px;
-    height: 25px;
 
+nav h1{
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
 }
 
-.fondob{
-    background-color: orange;
-    width: 400px;
-    height: 25px;
-    border: 1px solid red;
+main{
+    font-weight: 600;
+    text-transform:uppercase ;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    margin: 20px 105px;
+    padding: o 10px;
+
+}
+.t-1{
+    background-color: violet;
+    padding: 10px;
+}
+
+.t-2{
+    background-color: rgba(248, 67, 1, 0.671);   
+    padding: 10px;
     border-radius: 5px;
-
+    border: 2px solid rgba(255, 68, 0, 0.521);
 }
+
+.t-3{
+    border-left: rgb(177, 65, 84) solid 5px;
+    padding: 10px;
+    background-color: #cdcdcd20;;
+}
+
+.t-4{
+   padding: 10px;
+  border-bottom:  rgb(177, 65, 84) solid 2px;
+  background-color: #cdcdcd20;
+  border-top: rgb(177, 65, 84) solid 2px;
+}
+

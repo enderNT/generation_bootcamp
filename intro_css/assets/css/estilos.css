@@ -1,76 +1,57 @@
-/*Selector universal*/
-*{
-    background-color: antiquewhite;
-}
+/* !important es un selector que tiene la mayor jerarquia */
 
-/*Pseudo clase
-:root{
+/* selector universal "*" */
+ *{
+    background-color: blue;
+} 
 
-}
-*/
-
-/*Selector html, es "general"
-html{
-
-}
-
-*/
-
-/* Selector de etiqueta */
-/* h1{
-
-}*/
-
-/*Selector de Clase:*/
-
-body{
-    background-color: azure;
-}
-
-.cuadro{
+/* selector de clase con "." */
+.cuadrado{
     width: 100px;
     height: 100px;
-    background-color: red /*!important*/;
-    border: 1.5px solid black;
-    border-radius: 50%;
-}
+    background-color: cornflowerblue ;
+    border: 1px solid black;
+    border-radius: 5px;
+} 
 
-.color{
-    background-color: azure;
-}
 
-.color-texto{
-    color:blueviolet;
-    background-color:rgba(0,0,255,.6);
-}
 
-/*ID*/
-
+/* selector de id con "#" */
 #forma{
     width: 100px;
     height: 100px;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
+
 }
 
 
+.color{
+    background-color: violet;
+}
+.color{
+    background-color: springgreen;
+}
+.color{
+    background-color: blueviolet;
+}
 
+.color-texto{
+    color: darkgoldenrod;
+    background-color: aqua
+}
 
 .forma{
     height: 100px;
     width: 300px;
 }
-
 .borde{
-    border: 3px solid #ccc;
-   /*  border-top: 3px solid green;
-    border-right: 3px dashed red;
-    border-bottom: 3px solid black;
-    border-left: 3px solid blue; */
+    border: 3px solid black;
     text-align: center;
     line-height: 100px;
 }
 
 p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 10 px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
 }
