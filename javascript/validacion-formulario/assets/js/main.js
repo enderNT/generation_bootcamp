@@ -92,7 +92,6 @@ form.addEventListener('submit', (e) => {
   const check = document.querySelector('#terminos').checked
   if (!Object.values(statusInf).includes(false) && check == true) {
     document.querySelector('.alert-danger').style.display = 'none'
-
     const datos = Object.fromEntries(new FormData(e.target))
     console.log(datos)
   } else {
